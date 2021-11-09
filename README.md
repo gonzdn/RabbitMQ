@@ -40,3 +40,8 @@ DirectExchangePublisher is set by default
   FanoutExchangePublisher.Publish(channel);
 ```
 
+# How this works
+The producer is going to generate infinite messages and the consumer is going to receive the message from a queue that's listening to everything.
+This way we can understand how RabbitMQ works using the queues.
+
+
