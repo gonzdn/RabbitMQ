@@ -2,10 +2,10 @@
 Basic RabbitMQ proyect that explains the use of a normal Queue and also the differences of using exchanges
 
 # Technologies
-C#
-.NET 5.0
-Docker
-RabbitMQ 
+- C#
+- .NET 5.0
+- Docker
+- RabbitMQ 
 
 # A little bit about RabbitMQ
 In this demo I'm using the 5 examples of how to use RabbitMQ
