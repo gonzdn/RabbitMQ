@@ -10,7 +10,7 @@ Basic RabbitMQ project that explains the use of a normal Queue and also the diff
 # A little bit about RabbitMQ
 In this demo I'm using the 5 examples of how to use RabbitMQ and 1 explame using a single Queue
 
-Exanche examples
+Exchange examples
 
 - 1 Direct Exchange : Needs to have a route key defined so it can produce and consume only on that specific exchange.
 - 2 Topic Exchange  : Sames a direct, but it can have a wilder on the route key name, so it can capture everything on the same route key pattern name.
