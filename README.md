@@ -21,7 +21,7 @@ Exchange examples
 First you need to install docker desktop 
 [Docker Desktop](https://docs.docker.com/desktop/windows/install/)
 
-Ater installing Docker, you need to download and install RabbitMQ, you can do this by executing the following command:
+After installing Docker, you need to download and install RabbitMQ, you can do this by executing the following command:
 ```
   docker run --rm -it --hostname my-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
 ```
