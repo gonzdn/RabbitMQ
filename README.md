@@ -8,14 +8,14 @@ Basic RabbitMQ project that explains the use of a normal Queue and also the diff
 - RabbitMQ 
 
 # A little bit about RabbitMQ
-In this demo I'm using the 5 examples of how to use RabbitMQ and 1 explame using a single Queue
+In this demo I'm using 4 examples of how to use Exchanges and 1 example using a single Queue.
 
-Exchange examples
+For the exchange examples:
 
-- 1 Direct Exchange : Needs to have a route key defined so it can produce and consume only on that specific exchange.
-- 2 Topic Exchange  : Sames a direct, but it can have a wilder on the route key name, so it can capture everything on the same route key pattern name.
-- 3 Header Exchange : This doesn't requires a router key, instead it uses a list of properties, so you can specifie as many as you want.
-- 4 Fanout Exchange : Takes everything from the exchange no matter what router key or properties it has.
+- Direct Exchange : Needs to have a route key defined so it can produce and consume only on that specific exchange.
+- Topic Exchange  : Sames a direct, but it can have a wilder on the route key name, so it can capture everything on the same route key pattern name.
+- Header Exchange : This doesn't requires a router key, instead it uses a list of properties, so you can specifie as many as you want.
+- Fanout Exchange : Takes everything from the exchange no matter what router key or properties it has.
 
 # Installation
 First you need to install docker desktop 
